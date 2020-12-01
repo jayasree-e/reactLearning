@@ -11,3 +11,6 @@ create-react-app photowall
 cd photowall
 
 npm start
+
+Router
+npm install react-router-dom

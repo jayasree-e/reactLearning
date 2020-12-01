@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import Main from "./Components/Main";
-
+import { BrowserRouter } from "react-router-dom";
 import "./styles/stylesheets.css";
 // Elements
 // const lists = ["hello", "hi"];
@@ -26,4 +26,9 @@ import "./styles/stylesheets.css";
 
 //Components
 
-ReactDOM.render(<Main />, document.getElementById("root"));
+ReactDOM.render(
+  <BrowserRouter>
+    <Main />
+  </BrowserRouter>,
+  document.getElementById("root")
+);
