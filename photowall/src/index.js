@@ -1,8 +1,13 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import Main from "./Components/Main";
+import App from "./Components/App";
 import { BrowserRouter } from "react-router-dom";
 import "./styles/stylesheets.css";
+import { createStore } from "redux";
+import rootReducer from "./redux/reducer";
+import { Provider } from "react-redux";
+
+const store = createStore(rootReducer);
 // Elements
 // const lists = ["hello", "hi"];
 // const element = React.createElement(
@@ -27,8 +32,10 @@ import "./styles/stylesheets.css";
 //Components
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Main />
-  </BrowserRouter>,
+  <Provider store={store}>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </Provider>,
   document.getElementById("root")
 );

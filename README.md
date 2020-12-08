@@ -14,3 +14,9 @@ npm start
 
 Router
 npm install react-router-dom
+
+Redux
+
+npm install redux
+
+npm install react-redux
