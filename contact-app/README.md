@@ -5,18 +5,19 @@ This is a simple Contact App:
     3.The data doesn't get lost when you refresh as it is stored in LocalStorage
     4.Click on 'delete icon' to delete the item from list.
 
-Learnings of React from this APP
-1.JSX
-2.Functional components
-3.Class components
-4.Inline styling
-5.CSS imports
-6.UseState and UseEffect Hooks
-7.Props
-8.Functional props to send data from Child to parent
-9.Importing images
-10.State in class component
-11.Rendering List in React
+Learnings of React from this APP:
+
+    1.JSX
+    2.Functional components
+    3.Class components
+    4.Inline styling
+    5.CSS imports
+    6.UseState and UseEffect Hooks
+    7.Props
+    8.Functional props to send data from Child to parent
+    9.Importing images
+    10.State in class component
+    11.Rendering List in React
 
 # Getting Started with Create React App
 
